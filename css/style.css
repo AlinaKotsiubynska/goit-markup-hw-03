@@ -1,0 +1,229 @@
+:root {
+  --acent-color: #2196f3;
+  --logo-black: #000000;
+  --main-color: #757575;
+  --title-color: #212121;
+  --white-color: #ffffff;
+  --backgroud-greay-color: #2f303a;
+  --footer-address-color: rgba(255, 255, 255, 0.6);
+  --button-background: #f5f4fa;
+
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  font-family: var(--main-font);
+}
+
+/*BODY*/
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+h2,
+h3 {
+  color: var(--title-color);
+}
+
+p {
+  color: var(--main-color);
+}
+/*BODY*/
+
+/*HEADER*/
+.logo-header {
+  font-family: var(--logo-font);
+  font-size: 26px;
+  line-height: 1.17;
+  color: var(--logo-black);
+  letter-spacing: 0.03em;
+}
+
+.logo-web {
+  color: var(--acent-color);
+}
+
+.nav,
+.header-address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17em;
+}
+
+.nav-link {
+  color: var(--title-color);
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.header-address-item:hover,
+.header-address-item:focus {
+  color: var(--acent-color);
+}
+
+.header-address-item {
+  color: var(--main-color);
+}
+
+.curent {
+  color: var(--acent-color);
+}
+
+/*HEADER*/
+
+/*HERO*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36em;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white-color);
+  background-color: var(--backgroud-greay-color);
+}
+
+.button-studio-hero {
+  width: 200px;
+  height: 50px;
+  /* border-radius: 4px; */
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  font-family: var(--main-font);
+  text-align: center;
+  color: var(--white-color);
+  background-color: var(--acent-color);
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* HERO */
+
+/* FEATURES */
+.features-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.features-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+/* FEATURES */
+
+/*WORKS*/
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17%em;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*WORKS*/
+
+/*TEAM*/
+.team-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18em;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.team-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18em;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*TEAM*/
+
+/*PORTFOLIO*/
+.portfolio-btn {
+  /* position: absolute; */
+  background: var(--button-background);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  /* display: flex; */
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--white-color);
+  background-color: var(--acent-color);
+}
+
+.portfolio-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.02em;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-item-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.03em;
+}
+/*PORTFOLIO*/
+
+/*FOOTER*/
+.footer {
+  background-color: var(--backgroud-greay-color);
+}
+
+.logo-footer {
+  font-family: var(--logo-font);
+  font-size: 26px;
+  line-height: 1.17;
+  color: var(--white-color);
+}
+
+.footer-list-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+a[href*="goo.gl/maps"] {
+  color: var(--white-color);
+}
+/*FOOTER*/
