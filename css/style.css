@@ -350,19 +350,32 @@ nav {
   background-color: var(--backgroud-greay-color);
 }
 
+.container.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .logo-footer {
+  display: inline-block;
+  margin-bottom: 20px; 
+
   font-family: var(--logo-font);
   font-size: 26px;
   line-height: 1.17;
   color: var(--white-color);
 }
 
-.footer-list-item {
+.footer-list-link {
+  /* display: inline-block; */
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71em;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-list-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 a[href*="goo.gl/maps"] {
